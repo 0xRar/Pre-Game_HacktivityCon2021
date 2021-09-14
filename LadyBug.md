@@ -20,14 +20,12 @@ So i focused on Categories and when you click them you see:<br>
 and when you remove the slash at the end you will be redirected back to 
 `/film/park/` for proper info [click here](https://ahrefs.com/blog/trailing-slash/#:~:text=A%20trailing%20slash%20is%20a,not%20have%20the%20trailing%20slash.&text=These%20days%2C%20URLs%20in%20most,aren%27t%20pointing%20to%20files.)
 
-meaning its a directory, so i changed the park to something else to see what errors am i going to get
-
-
 By going to `http://challenge.ctf.games:30675/film/anything/`,<br>
 i got the Werkzeug Debugger page which should be used only in the development environment,<br>
 because it can lead to RCE so you write some python code in the python terminal when you<br>
 hover over an error in right side you will see a terminal logo
 
+![script](https://user-images.githubusercontent.com/33517160/133343389-9051bee1-9226-4ad8-a675-7f1847f4f843.png)
 
 
 py script:
@@ -37,8 +35,5 @@ import os
 print(os.popen('ls').read())
 print(os.popen('cat flag.txt').read())
 ```
-
-![[Pasted image 20210915012348.png]]
-
 
 #### Flag: *`flag{weurkzerg_the_worst_kind_of_debug}`*
