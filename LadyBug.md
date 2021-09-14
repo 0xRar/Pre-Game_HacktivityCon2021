@@ -4,7 +4,7 @@ ___________________________________________________________
 #### Category: *Web*
 
 #### Description: 
-Want to check out the new Ladybug Cartoon?
+Want to check out the new Ladybug Cartoon?<br>
 It's still in production, so feel free to send in suggestions!
 
 ___________________________________________________________
