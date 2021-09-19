@@ -12,7 +12,7 @@ ___________________________________________________________
 #### Solution: 
 
 First thing i did was click everything in the website,<br>
-tried getting an LFI from the search bar link but that was a rabbit hole also the contact page doesn't work
+tried getting an LFI from the search bar link but that was unsuccessful also the contact page doesn't work
 
 So i focused on Categories and when you click them you see:<br>
 `http://challenge.ctf.games:30675/film/park/`
